@@ -1,4 +1,3 @@
 ```
-$ cd helloserver
-$ go run .
+$ go run main.go
 ```
