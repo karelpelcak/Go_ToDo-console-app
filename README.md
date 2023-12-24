@@ -32,4 +32,49 @@ To run the ToDo app, ensure you have Go installed on your machine. Follow these 
 
    ```bash
    go run main.go
-   
+
+
+## Usage
+
+### View All Events
+
+- Select option 1.
+- If there are no events, it will inform you that you have 0 events. Otherwise, it will display the list of all events.
+
+### Add New Event
+
+- Select option 2.
+- Enter the event details as prompted.
+- The application will confirm the successful addition of the event.
+
+### Exit
+
+- Select option 3 to exit the ToDo app.
+
+### Example
+
+```bash
+Welcome to ToDo app
+1 - all events
+2 - add event
+3 - exit
+your select: 2
+Enter event: Complete README file
+Event added successfully.
+
+Welcome to ToDo app
+1 - all events
+2 - add event
+3 - exit
+your select: 1
+All events:
+Complete README file
+
+Welcome to ToDo app
+1 - all events
+2 - add event
+3 - exit
+your select: 3
+Exiting the ToDo app. Goodbye!
+
+
