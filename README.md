@@ -1,5 +1,7 @@
 # ToDo App in Go
 
+## !!Console cleaning work only on windows!!
+
 ## Overview
 
 This is a simple command-line ToDo application written in Go. It allows users to manage their tasks with basic functionalities like viewing all events, adding new events, and exiting the application.
